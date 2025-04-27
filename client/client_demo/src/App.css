@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #94B4C1; /* second darkest shade */
+  min-height: 100vh;
+  padding: 20px;
+  color: #213448; /* darkest shade for font to contrast background */
+}
+
+nav {
+  background-color: #213448; /* darkest shade */
+  padding: 15px 0;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #ECEFCA; /* lightest shade */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #547792; /* medium light shade */
+}
+
+h1, h2 {
+  color: #547792; /* medium light shade */
+  margin-bottom: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #ECEFCA; /* lightest shade */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px 20px;
+  border-bottom: 1px solid #547792; /* medium light shade */
+  text-align: left;
+  color: #213448; /* darkest shade */
+}
+
+th {
+  background-color: #ECEFCA; /* second darkest shade */
+  color: #547792; /* lightest shade */
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #547792; /* medium light shade */
+}
+
+button {
+  background-color: #547792; /* second darkest shade */
+  color: #ECEFCA; /* lightest shade */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #213448; /* darkest shade */
+}
+
+form {
+  background-color: #ECEFCA; /* lightest shade */
+  padding: 30px;
+  margin: 0 auto;
+  width: 400px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: left;
+  color: #213448; /* darkest shade */
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #94B4C1; /* second darkest shade */
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #547792; /* medium light shade */
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: #213448; /* darkest shade */
+  background-color: #f9fdf9;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  table {
+    width: 100%;
+  }
+  form {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+  
